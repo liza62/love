@@ -1,0 +1,42 @@
+/* Header, footer */
+
+nav,footer {
+  background-color:#FF1493;
+}
+.navbar-brand {
+ font-size: 18px;
+ font-weight: 600;
+}
+.nav-link, .dropdown-item {
+ font-size: 15px;
+ font-weight: 600;
+ text-transform: uppercase;
+}
+nav li {
+ padding: 0 18px;
+}
+nav li.active, nav li.active:before {
+ background-color: rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+}
+/* Navbar */
+.nav {
+ background: #30A6E6;
+}
+.nav-item {
+ padding: 5px;
+}
+.nav-item:hover, .active {
+ background: #000000;
+}
+.nav-link, .nav-link:hover {
+ color: #FFFFFF;
+ font: bold 14px sans-serif;
+}
+/* Section */
+.hero-block {
+ background-image: url("../img/hero-image.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
